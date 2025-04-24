@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between ;
+    padding:55px 65px ;
+    width: 100%;
+
+}
+#navpart1{
+    display:flex;
+    justify-content: space-between ;
+    width: 45%;
+}
+#navpart2{
+    display:flex;
+    justify-content: space-between ;
+    width: 35%;
+}
+#navpart1 h4{
+    font-size:22px;
+    font-weight: 600 ;
+}
+#navpart2 a{
+    font-size:22px;
+    font-weight: 600 ;
+    text-decoration: none;
+    color: #000;
+}
+#content{
+    margin-top: 50px;
+    padding: 45px 65px;
+}
+#content h4{
+    font-size:45px;
+    font-weight: 600;
+}
+#content h1{
+    font-size:135px;
+    font-weight: 500;
+    letter-spacing:-10px;
+    line-height: 125px;
+    word-spacing: 5px;
+}
+#place {
+   margin-top: 32px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#place h3, #place h4{ 
+    font-size: 33px ;
+    font-weight: 600;
+    
+}
+#hero-image{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/52/9e/f1/529ef1a903df2457a484a604892689d5.jpg);
+     background-size: cover;
+    background-position: center;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px 60px ;
+}
+#about h2{
+    width: 60%;
+    font-size: 90px;
+    line-height:83px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+#aboutpart2{
+   width: 36%;
+   height: 100%;
+   font-size:35px;
+   border-left: 2px solid;
+   padding: 0px 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+#aboutpart2 h3{
+    font-size:33px ;
+    font-weight: 600;
+    
+}
+#icons i{
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-right: 10px;
+}
+#work{
+        height: 55%;
+        width: 100%;
+        border-top: 2px solid #000;
+        display: flex;
+        padding: 50px 60px ;
+        border-bottom: 2px solid #000;
+}
+#work1{
+    height: 100%;
+    width: 35%;
+    border-right: 2px solid #000; 
+    display: flex;
+    padding-right: 26px;
+    justify-content: space-between;   
+
+}
+#work1 h3{
+    font-size:35px;
+    font-weight: 600;
+}
+#work1{
+    font-size:35px;
+    font-weight:600;
+}
+#work2{
+    height: 100%;
+    width: 65%;
+    padding: 20px;
+}
+#work3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+#work3:nth-child(1){
+    border-bottom:2px solid #000;
+}
+#work31{
+    height: 50%;
+    width: 50%;
+    border-right: 2px solid #000;
+    padding-right: 100px;
+}
+#work41{
+    height: 50%;
+    width: 50%;
+    border-right: 2px solid #000;
+    padding-right: 100px;
+}   
+#work31 h3{
+    font-size:35px;
+    font-weight: 600;
+}
+#work32 h3{
+    font-size:35px;
+    font-weight: 600;
+}
+#work4{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    
+}
+#work41 h3{
+    font-size:35px;
+    font-weight: 600;
+}
+#work42 h3{
+    font-size:35px;
+    font-weight: 600;
+}
+
+section {
+    padding: 4rem 2rem;
+  }
+  
+#about, #work, #contact {
+    background: white;
+    margin: 2rem 0;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+#contact h2{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input, textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+  }
+  
